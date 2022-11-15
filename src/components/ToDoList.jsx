@@ -13,7 +13,7 @@ const ToDoList = () => {
     return <div className='to-do-list'>
         <h2>ToDoList is here</h2>
         <AddToDo setToDos={ setToDos }/>
-        <ShowToDo name={ toDos } />
+        <ShowToDo name={toDos} setToDos={setToDos}/>
     </div>
 
 }
