@@ -5,9 +5,35 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: beige;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.header {
+  color: rgb(36, 36, 36);
+
+}
+
+.to-do-list {
+  background-color: rgb(216, 216, 216);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.subHeader {
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+ul {
+  border: 2px solid rgb(121, 107, 117);
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
 }
