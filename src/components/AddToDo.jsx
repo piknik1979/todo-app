@@ -1,10 +1,8 @@
-import ToDoList from "./ToDoList"
 import {useState} from 'react';
 
 const AddToDo = (props) => {
     const { setToDos } = props;
     const [toDo, setToDo] = useState('');
-
 
     const handleSubmit = (event) => {
         event.preventDefault();
@@ -14,10 +12,6 @@ const AddToDo = (props) => {
             return newTodos; 
         })
   setToDo('');
-    }
-
-    const handleDelete = (event) => {
-        event.preventDefault();
     }
 
     return <form onSubmit={handleSubmit}>
