@@ -4,7 +4,7 @@ import AddToDo from "./AddToDo"
 
 
 const ToDoList = () => {
-    const [toDo, setToDo] = useState(
+    const [toDos, setToDos] = useState(
        [ 'task 1',
         'task 2',
         'task 3',]
@@ -12,8 +12,8 @@ const ToDoList = () => {
 
     return <div className='to-do-list'>
         <h2>ToDoList is here</h2>
-        <AddToDo />
-        <ShowToDo />
+        <AddToDo setToDos={ setToDos }/>
+        <ShowToDo name={ toDos } />
     </div>
 
 }

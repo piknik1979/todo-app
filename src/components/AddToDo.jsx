@@ -1,9 +1,35 @@
 import ToDoList from "./ToDoList"
+import {useState} from 'react';
 
-const AddToDo = () => {
-    return <form>
-        <button>AddToDo</button>
-        <input type="text" />
+const AddToDo = (props) => {
+    const { setToDos } = props;
+    const [toDo, setToDo] = useState('');
+
+
+    const handleSubmit = (event) => {
+        event.preventDefault();
+        setToDos((currToDos) => {
+            const newTodo = toDo;
+            const newTodos = [...currToDos, newTodo];
+            return newTodos; 
+        })
+  setToDo('');
+    }
+
+    const handleDelete = (event) => {
+        event.preventDefault();
+    }
+
+    return <form onSubmit={handleSubmit}>
+        <label htmlFor="add-name">Add task: </label>
+        <input type="text"
+        id="add-name"
+        onChange={(event) => {
+        setToDo(event.target.value);
+        }} 
+        value={toDo}
+        />
+              <button>AddToDo</button>
     </form>
 }
 
