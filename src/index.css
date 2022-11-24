@@ -59,6 +59,7 @@ input[type=checkbox]:checked+label {
 }
 
 button {
+  margin-left: 10px;
   border-radius: 5px;
   cursor: pointer;
   padding: 5px;

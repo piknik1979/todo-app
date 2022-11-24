@@ -27,6 +27,7 @@ const ShowToDo = (props) => {
         </li>
         })}
          <p>Total tasks: {props.name.length}</p>
+         {/* <p>Tasks completed: {props.id}</p> */}
     </ul>
 
 }
