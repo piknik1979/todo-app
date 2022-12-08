@@ -20,7 +20,7 @@ Terminal Commands:
 
 ```
 $ git clone https://github.com/piknik1979/todo-app.git
-$ cd react-calc
+$ cd todo-app
 $ code .
 ```
 
