@@ -5,7 +5,7 @@ by use of JavaScript, css and Html
 and deployed with Netlify
 you can view it live hear: 
 
-https://tomasz-todo-app.netlify.app/
+https://react-tomasz-todo-app.netlify.app/
 
 ## Manual starting
 
