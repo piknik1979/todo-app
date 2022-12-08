@@ -19,7 +19,7 @@ Alternatively, the application can be started from the root directory in the ter
 Terminal Commands:
 
 ```
-$ git clone https://github.com/piknik1979/react-calc.git
+$ git clone https://github.com/piknik1979/todo-app.git
 $ cd react-calc
 $ code .
 ```
