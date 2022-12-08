@@ -21,8 +21,7 @@ const ShowToDo = (props) => {
         { props.name.map((todo) => {
              return <li key={todo}>
                        <input type="checkbox" id="scales" name="scales"></input> 
-            <label for="scales">{todo}</label> 
-
+            <label htmlFor="scales">{todo}</label>  
             <button onClick={handleDelete} value={todo} >delete</button> 
         </li>
         })}
