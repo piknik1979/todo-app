@@ -13,10 +13,10 @@
 ## Setup
 
 - [ ] Create your app directory (e.g. with create-react-app)
-- [x] Run your app
-- [x] Ensure you have React DevTools running (in browser)
-- [x] Create a static render of blank components as per your hierarchy
-- [x] Check everything is hooked up and the component tree is rendered
+- [ ] Run your app
+- [ ] Ensure you have React DevTools running (in browser)
+- [ ] Create a static render of blank components as per your hierarchy
+- [ ] Check everything is hooked up and the component tree is rendered
 
 ## Build components
 
