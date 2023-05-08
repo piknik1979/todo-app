@@ -1,6 +1,6 @@
 const Header = () => {
     return <header>
-        <h1 className="header" >ToMasz-To-Do-App</h1>
+        <h1 className="header" >NEW- FIREBASE - BRANCH</h1>
         <p className="subHeader">Sticky Notes Application</p>
     </header>
 }
